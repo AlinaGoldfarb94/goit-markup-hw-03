@@ -138,11 +138,7 @@ body {
 
 .hero {
   background-color: var(--text-color-title);
-}
-.container.hero {
-  display: block;
-  padding-top: 188px;
-  padding: 292px 0 292px 0;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -201,6 +197,7 @@ body {
 
 .section-team {
   background-color: var(--secondary-backgroud-color);
+  padding: 120px 0 120px 0;
 }
 
 .section-team .section-title {
@@ -252,22 +249,15 @@ body {
   align-items: center;
 }
 
-.container.team {
-  padding: 120px 0 120px 0;
-}
-
-.container.filter {
-  padding: 96px 0 0 0;
+.section-portfolio {
+  padding: 96px 0 120px 0;
 }
 
 .list.filter {
+  margin-bottom: 72px;
   display: flex;
   gap: 24px;
   justify-content: center;
-}
-
-.container.works {
-  padding: 72px 0 120px 0;
 }
 
 .list.works {
@@ -277,15 +267,13 @@ body {
 }
 
 .card-content-works {
-  padding: 32px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding: 32px 16px;
+  border-left: 1px solid var(--footer-text-color);
+  border-right: 1px solid var(--footer-text-color);
+  border-bottom: 1px solid var(--footer-text-color);
 }
 
 .works-item {
-  border: 1px solid var(--footer-text-color);
   background-color: var(--primary-background-color);
 }
 /* BUTTON */
@@ -347,7 +335,5 @@ body {
 }
 .footer {
   background-color: var(--text-color-title);
-}
-.container.footer {
   padding: 100px 0;
 }
